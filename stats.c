@@ -9,13 +9,12 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief Function prototypes for providing statics on an array of numbers, 
+ *   and general practice in the "C" language
  *
- * <Add Extended Description Here>
- *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Bruno Vergaray
+ * @date 2022-27-11
  *
  */
 
@@ -26,6 +25,36 @@
 
 /* Size of the Data Set */
 #define SIZE (40)
+
+//Function declarations
+void print_statistics(){
+
+}
+
+void print_array(){
+
+}
+
+void find_median(){
+
+}
+
+void find_mean(){
+
+}
+
+void find_maximum(){
+
+}
+
+void find_minimum(){
+
+}
+
+void sort_array(){
+
+}
+
 
 void main() {
 

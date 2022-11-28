@@ -9,13 +9,12 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.h 
+ * @brief Prints the statistics of a given array
  *
- * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Bruno Vergaray
+ * @date 2022-27-11
  *
  */
 #ifndef __STATS_H__
@@ -23,18 +22,13 @@
 
 /* Add Your Declarations and Function Comments here */ 
 
-/**
- * @brief <Add Brief Description of Function Here>
- *
- * <Add Extended Description Here>
- *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
- */
+void print_statistics();
+void print_array();
+void find_median();
+void find_mean();
+void find_maximum();
+void find_minimum();
+void sort_array();
 
 
 #endif /* __STATS_H__ */
